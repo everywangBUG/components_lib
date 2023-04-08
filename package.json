@@ -1,0 +1,22 @@
+{
+  "name": "components-lib",
+  "version": "1.0.0",
+  "description": "components-lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/everywangBUG/components_lib.git"
+  },
+  "keywords": [
+    "react_components_library"
+  ],
+  "author": "@everywang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/everywangBUG/components_lib/issues"
+  },
+  "homepage": "https://github.com/everywangBUG/components_lib#readme"
+}
