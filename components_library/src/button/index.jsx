@@ -14,7 +14,7 @@ const Button = memo((props) => {
     // 将变量转换为boolean值
     [className]: !!className
   })
-  return (<button className={cls} onClick={onClick} onBlur={onBlur} onFocus={onFocus}>{children}</button>)
+  return (<button className={cls} onClick={onClick} onBlur={onBlur} onFocus={onFocus} {...others}>{children}</button>)
 })
 
 export default Button 

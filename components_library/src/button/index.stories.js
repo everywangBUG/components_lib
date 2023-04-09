@@ -41,7 +41,7 @@ export const Large = {
 export const Small = {
   args: {
     type: 'dashed',
-    size: 'sm',
+    size: 'sm', 
     children: 'Button',
   },
 };

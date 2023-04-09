@@ -30,7 +30,7 @@ describe("button", () => {
     const onClick = jest.fn();
     // 先渲染primary button元素
     render(<Button onClick={onClick} type="primary">click me</Button>);
-    // 从屏幕中获取Button字段
+    // 从屏幕中获取click me字段
     const linkElement = screen.getByText(/click me/i);
     // 触发点击事件一次
     fireEvent.click(linkElement);
